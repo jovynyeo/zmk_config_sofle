@@ -107,11 +107,11 @@
         layer_3 {
             display-name = "Layer 3";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp HOME       &trans    &trans        &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp PAGE_UP    &trans    &kp UP_ARROW  &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp PAGE_DOWN  &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp END        &trans    &trans        &trans     &trans  &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans    &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp HOME       &trans        &trans        &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp PAGE_UP    &kp LA(LEFT)  &kp UP_ARROW  &kp LA(RIGHT)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp PAGE_DOWN  &kp LEFT      &kp DOWN      &kp RIGHT      &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp END        &trans        &trans        &trans         &trans  &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans        &trans        &trans
             >;
         };
 
