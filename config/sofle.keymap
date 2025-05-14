@@ -25,11 +25,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE  &kp N1              &kp N2              &kp N3          &kp N4            &kp N5                                    &kp N6     &kp N7             &kp N8           &kp N9               &kp N0    &kp MINUS
-&kp ESC    &kp Q               &kp W               &kp E           &kp R             &kp T                                     &kp Y      &kp U              &kp I            &kp O                &kp P     &kp BSPC
-&kp TAB    &mt LG(LEFT_GUI) A  &mt LEFT_CONTROL S  &mt LEFT_ALT D  &mt LEFT_SHIFT F  &kp G                                     &kp H      &mt RIGHT_SHIFT J  &mt RIGHT_ALT K  &mt RIGHT_CONTROL L  &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z               &kp X               &kp C           &kp V             &kp B        &kp C_MUTE    &kp C_MUTE     &kp N      &kp M              &kp COMMA        &kp DOT              &kp FSLH  &kp RSHFT
-                               &kp LGUI            &kp LALT        &kp LCTRL         &lt 1 SPACE  &kp RET       &kp BACKSPACE  &kp ENTER  &kp RCTRL          &kp RALT         &kp RGUI
+&kp GRAVE         &kp N1              &kp N2              &kp N3          &kp N4            &kp N5                                    &kp N6     &kp N7             &kp N8           &kp N9               &kp N0              &kp MINUS
+&kp CAPSLOCK      &kp Q               &kp W               &kp E           &kp R             &kp T                                     &kp Y      &kp U              &kp I            &kp O                &kp P               &kp BACKSLASH
+&kp TAB           &mt LG(LEFT_GUI) A  &mt LEFT_CONTROL S  &mt LEFT_ALT D  &mt LEFT_SHIFT F  &kp G                                     &kp H      &mt RIGHT_SHIFT J  &mt RIGHT_ALT K  &mt RIGHT_CONTROL L  &mt RIGHT_GUI SEMI  &kp SQT
+&kp LEFT_CONTROL  &lt 3 Z             &kp X               &kp C           &kp V             &kp B        &kp C_MUTE    &kp C_MUTE     &kp N      &kp M              &kp COMMA        &kp DOT              &kp FSLH            &kp ESC
+                                      &kp LGUI            &kp LALT        &kp LCTRL         &lt 1 SPACE  &kp RET       &kp BACKSPACE  &kp ENTER  &kp RCTRL          &kp RALT         &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -81,11 +81,11 @@
         layer_3 {
             display-name = "Layer 3";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans        &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &kp UP_ARROW  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans        &trans     &trans  &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans        &trans
             >;
         };
 
