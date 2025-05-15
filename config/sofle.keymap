@@ -23,7 +23,7 @@
         M1: M1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(I) &kp A &kp M &kp B &kp L &kp E &kp S &kp S &kp E &kp D &kp CARET &kp N6>;
+            bindings = <&kp LS(I) &kp A &kp M &kp B &kp L &kp E &kp S &kp S &kp E &kp D &kp CARET &kp N6 &kp ENTER>;
             label = "M1";
         };
     };
