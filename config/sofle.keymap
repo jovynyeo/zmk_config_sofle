@@ -64,7 +64,7 @@
 &kp CAPSLOCK      &kp Q                          &kp W                              &kp E                          &kp R                            &kp T                                       &kp Y      &kp U                             &kp I                           &kp O                               &kp P                              &kp BACKSLASH
 &kp TAB           &balanced_behavior LEFT_GUI A  &balanced_behavior LEFT_CONTROL S  &balanced_behavior LEFT_ALT D  &balanced_behavior LEFT_SHIFT F  &kp G                                       &kp H      &balanced_behavior RIGHT_SHIFT J  &balanced_behavior RIGHT_ALT K  &balanced_behavior RIGHT_CONTROL L  &balanced_behavior RIGHT_GUI SEMI  &kp SQT
 &kp LEFT_CONTROL  &lt 3 Z                        &kp X                              &kp C                          &kp V                            &kp B        &kp C_MUTE      &kp C_MUTE     &kp N      &kp M                             &kp COMMA                       &kp DOT                             &kp FSLH                           &kp ESC
-                                                 &lt 2 LEFT_GUI                     &kp LALT                       &kp LCTRL                        &lt 1 SPACE  &mouse_click    &kp BACKSPACE  &kp ENTER  &kp RCTRL                         &kp RALT                        &kp RGUI
+                                                 &lt 2 LEFT_GUI                     &kp LALT                       &kp LCTRL                        &lt 1 SPACE  &mouse_click    &kp BACKSPACE  &kp ENTER  &kp DEL                           &kp RALT                        &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
